@@ -57,3 +57,43 @@ li a{
   display: inline-block;
   font-weight: 800;
 }
+
+.fl{
+  float: left;
+}
+
+.fr{
+  float: right;
+}
+
+.container:after{
+  content: "";
+  display: table;
+  clear:none;
+  margin-top: 10px;
+}
+
+.side-sx{
+  width: 25%;
+  height: 200px;
+  background-color: white;
+  border-radius: 10px
+}
+
+.side-cn{
+  width: 50%;
+  height: 200px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.colonna{
+  width: 25%;
+}
+
+.side-dx{
+  width: 90%;
+  height: 200px;
+  background-color: white;
+  border-radius: 10px
+}
