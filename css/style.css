@@ -20,13 +20,37 @@ body{
 .sfondo-head{
   width: 99%;
   height: 240px;
-  margin: 4px;
+  margin: 6px;
   background-image:url(https://media.discordapp.net/attachments/761546561938784260/765549233691557938/natural-default-header.jpg?width=1026&height=308);
   background-size: cover;
   position: absolute;
+}
 
+.title{
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+h1{
+  border: 5px solid white;
+  padding: 5px;
+}
+
+h5{
+  margin-top: 50px;
+  font-family: sans-serif;
 
 }
+
+
+
 
 .nav-bar{
   width: 100%;
@@ -50,12 +74,15 @@ ul li:hover{
 
 }
 
-li a{
+li {
   text-decoration:none;
-  text-transform:capitalize;
+  text-transform: capitalize;
   height: 100%;
   display: inline-block;
-  font-weight: 800;
+  font-size: 15px;
+  font-family: sans-serif;
+
+  color:white;
 }
 
 .fl{
@@ -69,15 +96,15 @@ li a{
 .container:after{
   content: "";
   display: table;
-  clear:none;
-  margin-top: 10px;
+  clear:both;
 }
 
 .side-sx{
   width: 25%;
   height: 200px;
   background-color: white;
-  border-radius: 5px
+  border-radius: 5px;
+  margin-top: 10px
 }
 
 .side-cn{
@@ -85,6 +112,7 @@ li a{
   height: 200px;
   background-color: white;
   border-radius: 5px;
+  margin-top: 10px;
   margin-left: 25px;
 
 }
@@ -100,8 +128,18 @@ li a{
   height: 200px;
   background-color: white;
   border-radius: 5px;
+  margin-top: 10px;
 }
 
 .distanza{
   margin-top: 30px;
+}
+
+.finale{
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 20px;
+
 }
