@@ -21,8 +21,6 @@ body{
   width: 99%;
   height: 240px;
   margin: 6px;
-  background-image:url(https://media.discordapp.net/attachments/761546561938784260/765549233691557938/natural-default-header.jpg?width=1026&height=308);
-  background-size: cover;
   position: absolute;
 }
 
@@ -58,19 +56,18 @@ h5{
   bottom: 0;
   background-color: gray;
   text-align: center;
-  cursor: pointer;
+
 }
 
-ul li{
+ul li {
   display: inline-block;
   list-style: none;
   padding: 16px  10px;
   vertical-align: middle;
 }
 
-ul li:hover{
+ul li:hover {
   background: #CDC1C5;
-
 }
 
 li {
@@ -80,8 +77,8 @@ li {
   display: inline-block;
   font-size: 15px;
   font-family: sans-serif;
-
   color:white;
+  cursor: pointer;
 }
 
 .fl{
